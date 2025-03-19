@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Connected"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/select_device_button"
+        android:layout_width="219dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:text="Select Bluetooth Device"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/select_file_button"
+        android:layout_width="200dp"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select File" />
+
+    <Button
+        android:id="@+id/send_file_button"
+        android:layout_width="197dp"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Send File" />
+
+</LinearLayout>
